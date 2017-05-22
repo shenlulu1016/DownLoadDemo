@@ -15,6 +15,7 @@
 		9E167E7B1D40DE54004164A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E167E791D40DE54004164A0 /* LaunchScreen.storyboard */; };
 		9E167E861D40DE54004164A0 /* ____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167E851D40DE54004164A0 /* ____DemoTests.m */; };
 		9E167E911D40DE54004164A0 /* ____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167E901D40DE54004164A0 /* ____DemoUITests.m */; };
+		9E167EA01D40E30F004164A0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167E9F1D40E30F004164A0 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9E167E8C1D40DE54004164A0 /* 文件下载DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "文件下载DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E167E901D40DE54004164A0 /* ____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____DemoUITests.m"; sourceTree = "<group>"; };
 		9E167E921D40DE54004164A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E167E9E1D40E30F004164A0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9E167E9F1D40E30F004164A0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9E167E6F1D40DE54004164A0 /* AppDelegate.m */,
 				9E167E711D40DE54004164A0 /* ViewController.h */,
 				9E167E721D40DE54004164A0 /* ViewController.m */,
+				9E167E9E1D40E30F004164A0 /* MBProgressHUD.h */,
+				9E167E9F1D40E30F004164A0 /* MBProgressHUD.m */,
 				9E167E741D40DE54004164A0 /* Main.storyboard */,
 				9E167E771D40DE54004164A0 /* Assets.xcassets */,
 				9E167E791D40DE54004164A0 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					9E167E671D40DE54004164A0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T7G8CD5KRP;
 					};
 					9E167E801D40DE54004164A0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -273,6 +279,7 @@
 				9E167E731D40DE54004164A0 /* ViewController.m in Sources */,
 				9E167E701D40DE54004164A0 /* AppDelegate.m in Sources */,
 				9E167E6D1D40DE54004164A0 /* main.m in Sources */,
+				9E167EA01D40E30F004164A0 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T7G8CD5KRP;
 				INFOPLIST_FILE = "文件下载Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo1.----Demo";
@@ -426,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T7G8CD5KRP;
 				INFOPLIST_FILE = "文件下载Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo1.----Demo";
@@ -498,6 +507,7 @@
 				9E167E971D40DE54004164A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E167E981D40DE54004164A0 /* Build configuration list for PBXNativeTarget "文件下载DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				9E167E9A1D40DE54004164A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E167E9B1D40DE54004164A0 /* Build configuration list for PBXNativeTarget "文件下载DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +525,7 @@
 				9E167E9D1D40DE54004164A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
